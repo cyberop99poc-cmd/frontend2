@@ -5,7 +5,7 @@ import axios from 'axios'
  * All endpoints map to the Express/Prisma backend at /api/*
  */
 
-const API_URL = import.meta.env.VITE_API_URL // e.g. http://localhost:3000/api
+const API_URL = "https://backend2-1-m64m.onrender.com/";
 
 // ── Axios instance ────────────────────────────────────────────
 const api = axios.create({
